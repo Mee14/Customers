@@ -6,7 +6,7 @@ app = Flask(__name__)
 #This return a random num
 @app.route("/getRandomNumber")
 def getRandomNumber():
-    r = str(random.randint(1,100))
+    
     
     myrandom = "<h1>" + r + "</h1>"
     
