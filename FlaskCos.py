@@ -21,6 +21,7 @@ def home():
     for i in mycursor:
         
         myhtml = myhtml + str(i)
+        
     return myhtml
 
 ###########################################################
